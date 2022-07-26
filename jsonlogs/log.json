@@ -1,0 +1,134 @@
+[
+  {
+    "description": "    Feature Agregar una mascota ",
+    "elements": [
+      {
+        "description": "",
+        "id": "add-pet;agregar-mascota-de-forma-exitosa",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Agregar mascota de forma exitosa",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Enviar metodo Post a Pet",
+            "result": {
+              "duration": 1252000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Pet agregada de forma exitosa",
+            "result": {
+              "duration": 26000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-pet",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Add Pet",
+    "uri": "cypress\\e2e\\features\\addPet.feature"
+  },
+  {
+    "description": "    Feature Agregar una mascota ",
+    "elements": [
+      {
+        "description": "",
+        "id": "get-pet;consultar-mascota-de-forma-exitosa",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Consultar mascota de forma exitosa",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Metodo Get a Pet",
+            "result": {
+              "duration": 276000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Resultado del GET es el esperado",
+            "result": {
+              "duration": 30000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "get-pet",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Get Pet",
+    "uri": "cypress\\e2e\\features\\getPet.feature"
+  },
+  {
+    "description": "    Feature Cambiar datos de una mascota ",
+    "elements": [
+      {
+        "description": "",
+        "id": "update-pet;cambiar-datos-de-una-mascota-de-forma-exitosa",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Cambiar datos de una mascota de forma exitosa",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Enviar metodo Put a path v2",
+            "result": {
+              "duration": 290000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Cambios en la Pet realizados de forma exitosa",
+            "result": {
+              "duration": 30000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "update-pet",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Update Pet",
+    "uri": "cypress\\e2e\\features\\updatePet.feature"
+  }
+]
