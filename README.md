@@ -10,4 +10,4 @@ Se debe contar con la configuración de Cucumber dentro del IDE. Para lo cual ad
 
 Para generar los reportes, se debe ejecutar el comando: node .\cucumber-html-report.js
 
-Los resportes se encuentran dentro del proyecto en la ruta: reports\cucumber-htmlreport.html\index.html
+El reporte co los resultados obtenidos encuentran dentro del proyecto en la ruta: reports\cucumber-htmlreport.html\index.html
